@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    >
+
+    <TextView
+    android:id="@+id/enterName"
+    android:text="@string/enterName"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp"
+    />
+
+    <EditText
+        android:id="@+id/myUserName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameHint"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enterName"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/okB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/myUserName"
+        android:layout_marginTop="20dp"
+
+        />
+</RelativeLayout>
